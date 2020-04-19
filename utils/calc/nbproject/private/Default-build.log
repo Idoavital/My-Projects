@@ -1,0 +1,5 @@
+make[1]: Entering directory '/home/stav/svn/Proj/src/utils/stack'
+make[1]: *** No targets specified and no makefile found.  Stop.
+make[1]: Leaving directory '/home/stav/svn/Proj/src/utils/stack'
+../../Project.mak:72: recipe for target '../stack' failed
+make: *** [../stack] Error 2

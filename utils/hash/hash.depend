@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512492685 source:/home/stav/svn/Proj/src/utils/hash/hash.c
+
+1512493099 source:/home/stav/svn/Proj/src/utils/hash/testHash.c
+	<stdio.h>
+

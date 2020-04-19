@@ -1,0 +1,7 @@
+Creating dependencies and object files for testShape.cpp
+Creating dependencies and object files for shape.cpp
+Creating application testShape.out
+/usr/bin/ld: cannot find -lglut_shape
+collect2: error: ld returned 1 exit status
+../../ProjectCPP.mak:58: recipe for target '../../../arch/linux64/bin/Debug/testShape.out' failed
+make: *** [../../../arch/linux64/bin/Debug/testShape.out] Error 1

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1513775593 source:/home/stav/svn/Proj/src/test/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<unistd.h>
+
+1513777701 source:/home/stav/svn/Proj/src/test/sys.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+

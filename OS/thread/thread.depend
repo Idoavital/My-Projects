@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1513864197 source:/home/stav/svn/Proj/src/OS/thread/thread.c
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+

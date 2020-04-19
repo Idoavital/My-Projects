@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AVL" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="../AVL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../arch/linux64/bin/Debug/testAVL.out" prefix_auto="0" extension_auto="0" />
+				<Option object_output="/home/student/svn/Proj/arch/linux64/bin/Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="$make -f $makefile CONFIG=$target ECHO=1" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean CONFIG=$target ECHO=1" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile CONFIG=$target ECHO=1 &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../arch/linux64/bin/Debug/testAVL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AVL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AVL.h" />
+		<Unit filename="Makefile" />
+		<Unit filename="testAVL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

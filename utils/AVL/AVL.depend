@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1512069311 source:/home/student/svn/Proj/src/utils/AVL/AVL.c
+	<stdlib.h>
+	<assert.h>
+	<stdio.h>
+	"AVL.h"
+
+1512068975 source:/home/student/svn/Proj/src/utils/AVL/testAVL.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"AVL.h"
+
+1512052567 /home/student/svn/Proj/src/utils/AVL/AVL.h
+	<stddef.h>
+	"AVL.h"
+

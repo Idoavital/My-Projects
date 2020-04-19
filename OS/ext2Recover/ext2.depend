@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1519110778 source:/home/stav/svn/Proj/src/OS/ext2Recover/recover.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<linux/ext2_fs.h>
+

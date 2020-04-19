@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1514971221 source:/home/stav/svn/Proj/src/OS/ping-pong/ping.c
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<signal.h>
+	<string.h>
+	<stdio.h>
+

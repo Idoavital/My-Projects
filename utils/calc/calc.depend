@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1509468494 source:/home/student/svn/Proj/src/utils/stack/stack.c
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<errno.h>
+	"stack.h"
+
+1509468494 /home/student/svn/Proj/src/utils/stack/stack.h
+	<stddef.h>
+
+1509468494 source:/home/student/svn/Proj/src/utils/stack/stack.h
+	<stddef.h>
+

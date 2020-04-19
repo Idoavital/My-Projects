@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1513612677 source:/home/stav/svn/Proj/src/utils/dhcp/dhcp.c
+	<string.h>
+	<stdlib.h>
+	<string.h>
+	"dhcp.h"
+
+1513520278 /home/stav/svn/Proj/src/utils/dhcp/dhcp.h
+	<stddef.h>
+
+1513613061 source:/home/stav/svn/Proj/src/utils/dhcp/testDhcp.c
+	<stdio.h>
+	"dhcp.h"
+

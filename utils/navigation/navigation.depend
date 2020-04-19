@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1513250314 source:/home/stav/svn/Proj/src/utils/navigation/navigtion.c
+	<assert.h>
+	<stdlib.h>
+	<stdio.h>
+	"navigation.h"
+
+1513249062 /home/stav/svn/Proj/src/utils/navigation/navigation.h
+	<stddef.h>
+
+1513249745 source:/home/stav/svn/Proj/src/utils/navigation/testNavigtion.c
+	<stdio.h>
+	"navigation.h"
+	"distance.dat"
+	"adjacency.dat"
+
+1513186903 /home/stav/svn/Proj/src/utils/navigation/distance.dat
+
+1513186878 /home/stav/svn/Proj/src/utils/navigation/adjacency.dat
+

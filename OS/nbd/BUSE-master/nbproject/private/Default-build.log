@@ -1,0 +1,15 @@
+/usr/bin/gcc -g -pedantic -Wall -Wextra -std=c99 -o busexmp.o -c busexmp.c
+/usr/bin/gcc -g -pedantic -Wall -Wextra -std=c99 -o buse.o -c buse.c
+ar rcu libbuse.a buse.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+/usr/bin/gcc -o busexmp busexmp.o -L. -lbuse
+/usr/bin/gcc -g -pedantic -Wall -Wextra -std=c99 -o loopback.o -c loopback.c
+loopback.c:73:13: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     .read = loopback_read,
+             ^
+loopback.c:73:13: note: (near initialization for ‘bop.read’)
+loopback.c:74:14: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     .write = loopback_write
+              ^
+loopback.c:74:14: note: (near initialization for ‘bop.write’)
+/usr/bin/gcc -o loopback loopback.o -L. -lbuse

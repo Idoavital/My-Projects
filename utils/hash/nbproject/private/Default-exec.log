@@ -1,0 +1,46 @@
+called: gcc
+	/home/stav/svn/Proj/src/utils/hash
+	gcc
+	-ansi
+	-pedantic
+	-Wall
+	-Werror
+	-g
+	-DDEBUG
+	-UNDEBUG
+	-D_POSIX_SOURCE
+	-I../AVL
+	-MMD
+	-c
+	-o
+	../../../arch/linux64/obj/Debug/testHash.o
+	testHash.c
+
+called: gcc
+	/home/stav/svn/Proj/src/utils/hash
+	gcc
+	-ansi
+	-pedantic
+	-Wall
+	-Werror
+	-g
+	-DDEBUG
+	-UNDEBUG
+	-D_POSIX_SOURCE
+	-I../AVL
+	-MMD
+	-c
+	-o
+	../../../arch/linux64/obj/Debug/hash.o
+	hash.c
+
+called: gcc
+	/home/stav/svn/Proj/src/utils/hash
+	gcc
+	../../../arch/linux64/obj/Debug/hash.o
+	../../../arch/linux64/obj/Debug/testHash.o
+	../../../arch/linux64/obj/Debug/AVL.o
+	-L../../../arch/linux64/bin/Debug
+	-o
+	../../../arch/linux64/bin/Debug/testHash.out
+

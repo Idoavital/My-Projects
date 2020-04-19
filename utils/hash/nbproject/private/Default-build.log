@@ -1,0 +1,6 @@
+Creating dependencies and object files for testHash.c
+Creating dependencies and object files for hash.c
+Creating application testHash.out
+gcc: error: ../../../arch/linux64/obj/Debug/AVL.o: No such file or directory
+../../Project.mak:55: recipe for target '../../../arch/linux64/bin/Debug/testHash.out' failed
+make: *** [../../../arch/linux64/bin/Debug/testHash.out] Error 1

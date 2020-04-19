@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1514123604 source:/home/stav/svn/Proj/src/OS/multiThread/multiThread/multiThread.c
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+
+1514123616 source:/home/stav/svn/Proj/src/OS/multiThread/multiThread/testMultiThread.c
+	<stdio.h>
+
